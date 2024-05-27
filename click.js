@@ -1,4 +1,4 @@
-document.getElementById('Button').addEventListener('click', function() {
+document.getElementById('INU').addEventListener('click', function() {
     fetch('http://localhost:3000/web')
         .then(response => response.json())
         .then(web => {
